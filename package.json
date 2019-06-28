@@ -4,6 +4,7 @@
 	"description": "Server Testing Project",
 	"main": "server.js",
 	"scripts": {
+		"server": "nodemon",
 		"test": "jest --watch --verbose"
 	},
 	"jest": {
@@ -28,6 +29,7 @@
 		"dotenv": "^8.0.0",
 		"express": "^4.16.4",
 		"knex": "^0.18.0",
+		"nodemon": "^1.19.1",
 		"sqlite3": "^4.0.9"
 	}
 }
